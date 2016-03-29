@@ -1,0 +1,28 @@
+#header {
+    background-color:lightgrey;
+    color:black;
+    text-align:center;
+    padding:5px;
+}
+	      
+#article {
+    width:700px;
+    float:left;
+    padding:10px;	 	 
+}
+
+#aside {
+    background-color:lightblue;
+    width:400px;
+    height:420px;
+    float:right;
+    padding:10px
+}
+
+#footer {
+    background-color:lightgrey;
+    color:black;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}

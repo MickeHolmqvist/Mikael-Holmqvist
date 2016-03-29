@@ -1,0 +1,35 @@
+#header {
+		background-color:black;
+		color:yellow; 
+		text-align:center;
+		padding:5px;
+	}
+	#nav {
+		line-height:30px;
+		text-align:center;
+		background-color:lightgrey;
+		color:darkblue;
+		width:200px;
+		height:1000px;
+		float:left;
+	}
+	#aside {
+		background-color:lightgrey;
+		align-items:center; 
+		width:385px;
+		height:1000px;
+		float:right;
+		border:10px;
+	}
+	#article {
+		background-color:lightblue; 
+		height:1000px; 
+		width:960px;
+		margin:auto; 
+	}
+	#footer {
+		background-color:black;
+		text-align:center;
+		color:yellow;
+		padding:5px;
+	}

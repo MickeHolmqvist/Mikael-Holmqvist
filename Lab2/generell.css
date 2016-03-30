@@ -1,0 +1,44 @@
+h2 {
+	text-align: center;
+}
+
+header {
+	background-color: black;
+	color: white;
+	padding: 25px;
+	text-align: center;
+}
+nav {
+	background-color: yellow;
+	color: black;
+	text-align: center;
+}
+article {
+	background-color: lightgrey;
+	color: black;
+	height: 620px;
+	width: 923px;
+	padding: 30px 30px 30px; 
+	float: left;
+	align-items: center;
+}
+article img {
+	height: 200px;
+}
+aside {
+	background-color: grey;
+	padding: 25px;
+	height: 630px;
+	width: 300px;
+	float: right;
+}
+aside img {
+	height: 200px;
+	width: 300px
+}
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 40px;
+}

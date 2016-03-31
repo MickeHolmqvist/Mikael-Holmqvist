@@ -8,13 +8,13 @@
 	<meta name="author" content="Mikael Holmqvist">
 	<link rel="stylesheet" type="text/css" href="generell.css">
 </head>
-</head>
+
 <body>
 	<header>
 		<h1>Min hemsida om Tenn</h1>
 		<p>Detta är mitt skolarbete som handlar om olika metaller</p>
 		<nav>
-			<ul>
+			<ul id="meny">
 				<li><a href="Guld.html">Guld</a></li>
 				<li><a href="Silver.html">Silver</a></li>
 				<li><a href="Koppar.html">Koppar</a></li>
@@ -23,16 +23,67 @@
 		</nav>
 	</header>
 	<article>
-		<h2>Allt är Tenn som glimmar!</h2>
+
+		<div id="box1">
 		<img src="bilder/tenn.jpg" alt="Bild på en burk gjord av tenn" title="Tennburk">
+		</div>
+
+		<h2>Allt är Tenn som glimmar!</h2>
+		
 		<p>Tenn är ett silvervitt metalliskt grundämne med beteckningen Sn (latin: stannum). Den här smidiga silvervita metallen oxiderar inte med syre vilket gör att den används för att skydda andra metaller mot korrosion med en tennbeläggning. Tenn är en av de metaller som är kända av människan sedan antiken, då det mjuka tennet hade stor betydelse med den även mjuka kopparn, då de tillsammans bildar den hårda legeringen brons. Tenn utvinns framförallt ur mineralet tennsten (kassiterit).</p>
 		<p>Tenn är en formbar, smidig, kristallin metall. Den är beständig i syre och salt, sött och destillerat vatten (den skyddas av en oxidfilm), men kan angripas av baser, syror och surt salt. När smält tenn stelnar uppstår så kallad β-tenn som är stabilt ner till 13 °C. När tennföremål förvaras i låga temperaturer kommer grå förhöjda partier att uppstå på ytan, man säger att föremålet drabbats av tennpest. Detta kan förhindras genom att man legerar tennet med antimon eller vismut.</p>
+	
+		<table class="tabell" border="0" cellpadding="8" cellspacing="10">
+			<tr>
+			<td ></td>
+			<td>Guld</td>
+			<td>Silver</td>
+			<td>Koppar</td>
+			<td>Tenn</td>
+			</tr>
+			<tr>
+			<td class="tabellcell">Grundämne</td>
+			<td class="tabellcell">Au</td>
+			<td class="tabellcell">Ag</td>
+			<td class="tabellcell">Cu</td>
+			<td class="tabellcell">Sn</td>
+			</tr>
+			<tr>
+			<td class="tabellcell">Densitet</td>
+			<td class="tabellcell">1,9kg/l</td>
+			<td class="tabellcell">1,05kg/l</td>
+			<td class="tabellcell">0,89kg/l</td>
+			<td class="tabellcell">0,73kg/l</td>
+			</tr>
+			<tr>
+			<td class="tabellcell">Färg</td>
+			<td class="tabellcellguld"></td>
+			<td class="tabellcellsilver"></td>
+			<td class="tabellcellkoppar"></td>
+			<td class="tabellcelltenn"></td>
+			</tr>
+		</table>
 	</article>
-	<aside>
-		<a href="Silver.html"><img src="bilder/silver.jpg" alt="Bild pa silverfargade flagor" title="Silver"></a>
-		<a href="Koppar.html"><img src="bilder/koppar.jpg" alt="Bild på hangande koppar pa krokar" title="Koppar"></a>
-		<a href="Guld.html"><img src="bilder/guld.jpg" alt="Bild på guldspån" title="Guldspån"></a>
-	</aside>
+
+	<a href="Silver.html">
+		<aside>
+			<p>Titta även på min sida om silver</p>
+			<img src="bilder/silver.jpg" alt="Bild pa silverfargade flagor" title="Silver">
+		</aside>
+	</a>
+		<a href="Guld.html">
+		<aside>
+			<p>Titta även på min sida om guld</p>
+			<img src="bilder/guld.jpg" alt="Bild på guldspån" title="Guldspån">
+		</aside>
+	</a>
+		<a href="Koppar.html">
+		<aside>
+			<p>Titta även på min sida om koppar</p>
+			<img src="bilder/koppar.jpg" alt="Bild på hangande koppar pa krokar" title="Koppar">
+		</aside>
+	</a>
+	
 	<footer>
 		<address>
 		Mikael Holmqvist<br>

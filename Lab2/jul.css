@@ -1,0 +1,150 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+/* Listan <UL> med knapparna */
+ul {
+margin: 30px 0 30px 0;
+padding: 0;
+}
+
+/* Listelementen <LI> med knapparna */
+#meny li {
+display: inline;
+list-style: none;
+}
+
+#meny li a {
+margin: 0 5px 0 0;
+padding: 5px 20px 5px 20px;
+text-align: center;
+white-space: nowrap;
+line-height: 50px;
+font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+font-size: 20px;
+border-radius: 5px;
+border: 1px solid yellow;
+background: darkgrey;
+box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 3px rgba(0,0,0,0.70);
+}
+
+#meny li a:hover {
+cursor: pointer;
+background: rgba(178,232,139,1);
+color: rgba(0,0,0,1);
+}
+
+#meny a:link, #meny a:visited {
+color: rgba(255,255,255,1);
+text-decoration: none;
+}
+
+#meny a:active {
+color: rgba(250,191,12,1);
+}
+
+#meny a#current {
+background: rgba(85,137,48,1);
+}
+#box1 {
+	width: 300px;
+	height: 200px;
+	padding: 25px;
+	margin: 0 auto 0 auto;
+}
+h1 {
+	text-align: center;
+}
+h2 {
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+}
+
+header {
+	background-color: red;
+	color: white;
+	padding: 25px;
+	text-align: center;
+}
+
+article {
+	background-color: white;
+	color: black;
+	height: 786px;
+	width: 938px;
+	padding: 30px 30px 30px; 
+	float: left;
+}
+article img {
+	width: 350;
+	height: 200px;
+}
+aside {
+	text-align: center;
+	background-color: red;
+	color: white;
+	padding: 0px 25px;
+	height: 280px;
+	width: 298px;
+	float: right;
+	border: 1px solid yellow;
+	 
+}
+aside img {
+	height: 160px;
+	width: 300px
+}
+
+.tabell {
+	width: 800px;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #95B995;
+	border-radius: 15px;
+	box-shadow: 5px 5px 10px rgba(0,0,0, 0.3);
+	margin: 0 auto 0 auto;
+}
+
+.tabellcell {
+	text-align: center;
+	border: 1px solid #95B995;
+	border-radius: 5px;
+	box-shadow: inset 3px 3px 3px rgba(0,0,0, 0.3);
+}
+.tabellcellguld {
+	text-align: center;
+	background-color: gold;
+	border: 1px solid #95B995;
+	border-radius: 5px;
+	box-shadow: inset 3px 3px 3px rgba(0,0,0, 0.3);
+}
+.tabellcellsilver {
+	text-align: center;
+	background-color: silver;
+	border: 1px solid #95B995;
+	border-radius: 5px;
+	box-shadow: inset 3px 3px 3px rgba(0,0,0, 0.3);
+}
+.tabellcellkoppar {
+	text-align: center;
+	background-color: #FF9900;
+	border: 1px solid #95B995;
+	border-radius: 5px;
+	box-shadow: inset 3px 3px 3px rgba(0,0,0, 0.3);
+}
+.tabellcelltenn {
+	text-align: center;
+	background-color: #E8E8E8;
+	border: 1px solid #95B995;
+	border-radius: 5px;
+	box-shadow: inset 3px 3px 3px rgba(0,0,0, 0.3);
+}
+footer {
+	background-color: red;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	clear: both;
+}

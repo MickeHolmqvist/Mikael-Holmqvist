@@ -8,12 +8,13 @@
 	<meta name="author" content="Mikael Holmqvist">
 	<link rel="stylesheet" type="text/css" href="generell.css">
 </head>
+
 <body>
 	<header>
 		<h1>Min hemsida om Silver</h1>
 		<p>Detta är mitt skolarbete som handlar om olika metaller</p>
 		<nav>
-			<ul>
+			<ul id="meny">
 				<li><a href="Guld.html">Guld</a></li>
 				<li><a href="Silver.html">Silver</a></li>
 				<li><a href="Koppar.html">Koppar</a></li>
@@ -22,17 +23,67 @@
 		</nav>
 	</header>
 	<article>
-		<h2>Allt är inte silver som glimmar!</h2>
+
+		<div id="box1">
 		<img src="bilder/silver.jpg" alt="Bild på silverspån" title="Silverspån">
+		</div>
+
+		<h2>Allt är inte silver som glimmar!</h2>
+		
 		<p>Silver (latinskt namn argentum) är ett metalliskt grundämne som tillhör gruppen ädelmetaller, och gruppen myntmetaller.</p>
 		<p>Metallen används ofta till smycken. Det används också som elektrisk ledare där mycket höga krav på låg resistans krävs, exempelvis till inneslutning av supraledande material i de största elektromagneterna. Tanken är att om kylningen av supraledaren fallerar så att supraledningen upphör, så ska de mycket stora strömmar det är frågan om kunna gå genom silvret istället utan att ge så höga temperaturer att ledarna smälter. Detta eftersom silver lär ha den lägsta resistansen av alla icke-supraledande ämnen vid tänkbara temperaturer. Silver har också en mycket hög värmeledningsförmåga.</p>
 		<p>Metallen används ofta till smycken. Det används också som elektrisk ledare där mycket höga krav på låg resistans krävs, exempelvis till inneslutning av supraledande material i de största elektromagneterna. Tanken är att om kylningen av supraledaren fallerar så att supraledningen upphör, så ska de mycket stora strömmar det är frågan om kunna gå genom silvret istället utan att ge så höga temperaturer att ledarna smälter. Detta eftersom silver lär ha den lägsta resistansen av alla icke-supraledande ämnen vid tänkbara temperaturer. Silver har också en mycket hög värmeledningsförmåga.</p>
+		
+		<table class="tabell" border="0" cellpadding="8" cellspacing="10">
+			<tr>
+			<td ></td>
+			<td>Guld</td>
+			<td>Silver</td>
+			<td>Koppar</td>
+			<td>Tenn</td>
+			</tr>
+			<tr>
+			<td class="tabellcell">Grundämne</td>
+			<td class="tabellcell">Au</td>
+			<td class="tabellcell">Ag</td>
+			<td class="tabellcell">Cu</td>
+			<td class="tabellcell">Sn</td>
+			</tr>
+			<tr>
+			<td class="tabellcell">Densitet</td>
+			<td class="tabellcell">1,9kg/l</td>
+			<td class="tabellcell">1,05kg/l</td>
+			<td class="tabellcell">0,89kg/l</td>
+			<td class="tabellcell">0,73kg/l</td>
+			</tr>
+			<tr>
+			<td class="tabellcell">Färg</td>
+			<td class="tabellcellguld"></td>
+			<td class="tabellcellsilver"></td>
+			<td class="tabellcellkoppar"></td>
+			<td class="tabellcelltenn"></td>
+			</tr>
+		</table>
 	</article>
-	<aside>
-		<a href="Guld.html"><img src="bilder/guld.jpg" alt="Bild pa guldfärgade flagor" title="Guldspån"></a>
-		<a href="Koppar.html"><img src="bilder/koppar.jpg" alt="Bild på hangande koppar pa krokar" title="Koppar"></a>
-		<a href="Tenn.html"><img src="bilder/tenn.jpg" alt="Bild på en burk som är gjord av tenn" title="Tennburk"></a>
-	</aside>
+
+	<a href="Koppar.html">
+		<aside>
+			<p>Titta även på min sida om koppar</p>
+			<img src="bilder/koppar.jpg" alt="Bild på hangande koppar pa krokar" title="Koppar">
+		</aside>
+	</a>
+		<a href="Guld.html">
+		<aside>
+			<p>Titta även på min sida om guld</p>
+			<img src="bilder/guld.jpg" alt="Bild på guldspån" title="Guldspån">
+		</aside>
+	</a>
+		<a href="Tenn.html">
+		<aside>
+			<p>Titta även på min sida om tenn</p>
+			<img src="bilder/tenn.jpg" alt="Bild på en burk som är gjord av tenn" title="Tennburk">
+		</aside>
+	</a>
 
 	<footer>
 		<address>

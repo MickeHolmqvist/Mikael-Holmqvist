@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>betalsida</title>
+	<meta charset="utf-8">
+	<meta name="arthour" content="Mikael Holmqvist">
+	<meta name="words" content="skolarbete, hemsida, lab3">
+	<meta name="content" content="Mitt skolarbete labb nummer 3 i webbdesign vårterminen 2016">
+	<link rel="stylesheet" type="text/css" href="grund.css">
+	<link rel="stylesheet" type="text/css" href="betala.css">
+</head>
+<body>
+	<header>
+		<h1>Hederlige Mickes Webshop</h1>
+		<p>En bra kund är en återkommande kund. Runthörnetgaranti på (nästan) ALLT!</p>
+	</header>
+	<section>
+		<h2>Betalsida</h2>
+		<img class="bannerimg" src="Bilder/varukorg.png" alt="Bild på en kundvagn med en skyllt i" title="kundvagn">
+		<img class="bannerimg" src="Bilder/next.jpe" alt="Bild på högerställd pil" title="högerpil">
+		<img class="bannerimgnow" src="Bilder/betalning.jpe" alt="Bild på ett kreditkort" title="kreditkort">
+		<img class="bannerimg" src="Bilder/next.jpe" alt="Bild på högerställd pil" title="högerpil">
+		<img class="bannerimg" src="Bilder/valid.jpe" alt="ikryssad ruta" title="kryssruta">
+	</section>
+	<article>
+		<h2>Betalningsuppgifter</h2>
+		<fieldset>		
+		<form action="kvitto.html">
+			<label name="förnamn" id="fnamn">Förnamn</label><br>
+			<input type="text" name="förnamn" id="fnamn" required /><br>
+			<label name="enamn" id="enamn">Efternamn</label><br>
+			<input type="text" name="adr" id="adr" required /><br>
+			<label name="mail" id="mail">Epost</label><br>
+			<input type="email" name="mail" id="mail" required /><br>
+			<label name="adr" id="adr">Adress</label><br>
+			<input type="text" name="adr" id="adr" required /><br>
+			<label name="ort" id="ort">Postnr och ort</label><br>
+			<input type="text" name="ort" id="ort" required /><br>
+			<label name="knr" id="knr">Kortnummer</label><br>
+			<input class="backgroundgray" type="number" name="knr" id="knr" maxlength="16" required /><br>
+			<label name="month" id="month">Månad</label><br>
+			<input class="backgroundgray" type="number" name="month" id="month" min="0" max="12" required /><br>
+			<label name="year" id="year">År</label><br>
+			<input class="backgroundgray" type="number" name="year" id="year" min="0" max="99" required /><br>
+			<label name="sec" id="sec">Säkerhetsnummer</label><br>
+			<input class="backgroundgray" type="number" name="sec" id="sec" min="99" max="999" required /><br>
+			<h3>Fylls i om du är kvinna</h3>
+			<label name="wey" id="wey">Vikt i kg</label><br>
+			<input type="number" name="wey" id="wey" required /><br>
+			<label name="rel" id="rel">Relation</label><br>
+			<input type="radio" name="rel" id="rel" value="sambo"> Sambo</input><br>
+			<input type="radio" name="rel" id="rel" value="inrel"> I förhållande</input><br>
+			<input type="radio" name="rel" id="rel" value="singel"> Singel</input><br>
+			<input class="knappstil2" type="submit" name="betala" id="betala" value="Betala"/>
+		</form>
+		</fieldset>
+	</article>
+	<footer>
+		<address>
+			Mikael Holmqvist<br>
+			Parkeringsplatsen vid Konsum (ibland vid ICA)<br>
+			Bagageluckan är öppen 24/7<br>
+			Mail: ingakvitton@ingenmoms.nu
+		</address>
+		<img class="footerbild" src="Bilder/certifikat.png" alt="certifikat" title="certifikat">
+	</footer>
+</body>
+</html>

@@ -1,0 +1,29 @@
+fieldset {
+	width: 20%;
+	height: 430px;
+	background-color: azure;
+	float: left;
+	margin: 30px;
+	text-align: center;
+}
+fieldset img {
+	height: 150px;
+	width: 240px;
+	margin: 10px;
+}
+fieldset h3 {
+	font-size: 150%;
+	color: red;
+	text-align: center;
+}
+fieldset input {
+	width: 100px;
+	text-align: center;
+}
+.varukorgknapp {
+	width: 220px;
+	height: 30px;
+	margin: 10px;
+	background-color: lightgreen;
+	font-size: 120%;
+}

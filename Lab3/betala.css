@@ -1,0 +1,25 @@
+.knappstil2 {
+	height: 80px;
+	width: 200px;
+	background-color: green;
+	color: white;
+	text-align: center;
+	font-size: 130%;
+}
+.backgroundgray {
+	background-color: lightgrey;
+}
+.bannerimgnow {
+	width: 80px;
+	height: 80px;
+	border: 2px solid;
+}
+.bannerimg {
+	width: 80px;
+	height: 80px;
+}
+section {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}

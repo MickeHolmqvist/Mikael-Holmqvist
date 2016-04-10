@@ -1,0 +1,25 @@
+header {
+	text-align: center;
+    background: aliceblue;
+    padding: 20px;
+}
+header h1 {
+	color: blue;
+}
+header p {
+	font-size: 125%;
+}
+article {
+	width: 80%;
+	padding: 10px;
+	margin: auto;
+	text-align: center;
+}
+footer {
+	clear: both;
+	text-align: center;
+	background-color: lightgrey;
+}
+.footerbild {
+	height: 100px;
+}

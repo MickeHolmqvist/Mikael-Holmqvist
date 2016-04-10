@@ -1,0 +1,49 @@
+fieldset {
+	width: 100px;
+	text-align: center;
+}
+section {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+article {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+table {
+	width: 80%;
+	margin: auto;
+	padding-bottom: 40px;
+	border-top: 2px solid;
+	border-bottom: 1px solid;
+}
+.blue {
+	background-color: lightblue;
+}
+.minimini {
+	height: 40px;
+	width: 40px;
+}
+.bannerimgnow {
+	width: 80px;
+	height: 80px;
+	border: 2px solid;
+}
+.bannerimg {
+	width: 80px;
+	height: 80px;
+}
+.minibild {
+	height: 80px;
+	width: 80px;
+}
+.knappstil1 {
+	height: 80px;
+	width: 200px;
+	background-color: green;
+	color: white;
+	text-align: center;
+	font-size: 130%;
+}

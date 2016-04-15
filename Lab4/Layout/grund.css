@@ -1,0 +1,39 @@
+
+body {
+	background-image: url(../Bilder/ff.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #ffffff;
+	background-position: fixed;
+}
+.hoger {
+	float: right;
+	margin-top: 55px;
+}
+.inputcent {
+	text-align: center;
+}
+.navbar {
+	background-color: none;
+}
+nav img {
+	max-height: 130px;
+}
+.logo {
+	margin-top: 7px;
+	max-height: 100px;
+}
+div header nav div ul li {
+	font-size: 130%;
+}
+.cart{
+	max-height: 40px;
+	margin-right: 10px;
+}
+.avskiljare {
+	border-bottom: 1px solid brown;
+}
+article {
+	background-color: #ffb380;
+}
+

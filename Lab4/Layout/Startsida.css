@@ -1,0 +1,17 @@
+
+.bannerbild {
+	margin-bottom: 5%;
+	opacity:0.8;
+	border-radius: 3%;
+}
+.centerbild {
+	margin-top: 12%;
+	margin-bottom: 12%;
+	padding-top: 12%;
+	padding-bottom: 12%;
+	border-top: 1px solid brown;
+	border-bottom: 1px solid brown;
+}
+.artikel {
+	border-right: 1px solid brown;
+}

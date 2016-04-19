@@ -1,0 +1,16 @@
+fieldset {
+	max-width: 60%;
+	margin: auto;
+	margin-bottom: 5%;
+	padding: 5%;
+	background-color: lightgrey;
+	opacity: 0.8;
+	border-radius: 3%;
+
+}
+.bild {
+	margin-left: 40%;
+}
+.knapp {
+	
+}

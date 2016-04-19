@@ -89,6 +89,10 @@ nav {
 	margin-bottom: 15px;
 }
 /* Footer */
+footer {
+  background-color: lightgrey;
+  opacity: 0.8;
+}
 .logo {
 	margin-left: 2px;
 }

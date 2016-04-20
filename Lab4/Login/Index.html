@@ -87,19 +87,24 @@
 			</nav>
 		</header>
 <!-- Innehåll på sidan -->
+		<ul class="breadcrumb">
+		    <li><a href="../Index.html">Hem</a></li>
+		    <li class="active">Inloggning</li>        
+		</ul>
 		<div class="row sidan">
 			<article class="col-sm-12">
 				<fieldset>
 					<legend>Medlems-inloggning</legend>
 					<img class="bild" src="../Bilder/inlog.png" alt="siluett på kvinna och man" title="inloggninglogo">
+					<h4>Fyll i dina uppgifter</h4>
 					<form action="Medlem/Index.html">
 					  <div class="form-group">
-					    <label for="email">E-post/Användarnamn:</label>
-					    <input type="email" class="form-control" id="email" required>
+					    <label for="email1">E-post/Användarnamn:</label>
+					    <input type="email" class="form-control" id="email1" required>
 					  </div>
 					  <div class="form-group">
-					    <label for="pwd">Password:</label>
-					    <input type="password" class="form-control" id="pwd" required>
+					    <label for="pwd7">Password:</label>
+					    <input type="password" class="form-control" id="pwd7" required>
 					  </div>
 					  <div class="checkbox">
 					    <label><input type="checkbox"> Kom ihåg mig!</label>
@@ -146,7 +151,7 @@
 				<a href="https://webgate.ec.europa.eu/odr/main/index.cfm?event=main.home.show&lng=SV" target="_blank">Länk till EU hjälp vid tvister</a><br>
 		<!-- Anmälan till nyhetsbrev -->
 				<h4 class="fotrubrik">Anmäl dig till vårt nyhetsbrev</h4>
-				<form action="Tacknyhet.html">
+				<form action="../Bekraftelse/Tacknyhet.html">
 					<div class="form-group">					
 					    <input type="email" class="form-control" id="email" placeholder="Din e-mail..." required>
 					</div>
@@ -184,7 +189,7 @@
 					<img src="../Bilder/insta.png" class="responsive logo" alt="Instagram_logo" title="Instagram_logo">
 				</a>
 		<!-- Kontaktformulär -->
-				<form action="Tackmail">
+				<form action="../Bekraftelse/Tackmail">
 				    <div class="form-group">
 				    <h4 class="fotrubrik">Kontakta oss</h4>
 				      	<input type="text" class="form-control" id="usr" name="kontakt" placeholder="Ditt namn..." required>
